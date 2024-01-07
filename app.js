@@ -1,5 +1,5 @@
 let drawnNumberArray = [];
-let maxNumber = 10;
+let maxNumber = 100;
 let secretNumber = randomNumber();
 let tries = 1;
 
@@ -11,7 +11,7 @@ function showTextOnScreen(tag, text){
 
 function startText(){
     showTextOnScreen('h1', "Secret Number Game");
-    showTextOnScreen('p', "Choose a number between 1 and 10");
+    showTextOnScreen('p', "Choose a number between 1 and 100");
 }
 
 startText();
